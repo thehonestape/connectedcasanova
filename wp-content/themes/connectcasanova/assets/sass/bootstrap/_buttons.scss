@@ -12,10 +12,14 @@
   font-weight: $btn-font-weight;
   text-align: center;
   vertical-align: middle;
+  font-weight: bold;
+  font-family: $font-family-sans-serif;
+  text-transform: uppercase;
   cursor: pointer;
   background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
-  border: 1px solid transparent;
+  border: 0px solid transparent;
   white-space: nowrap;
+  @include transition(all 0.25s ease-in-out);
   @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $border-radius-base);
   @include user-select(none);
 
@@ -123,7 +127,7 @@
 
 .btn-lg {
   // line-height: ensure even-numbered height of button next to large input
-  @include button-size($padding-large-vertical, $padding-large-horizontal, $font-size-large, $line-height-large, $border-radius-large);
+  @include button-size($padding-large-vertical, $padding-large-horizontal, $font-size-base, $line-height-large, $border-radius-large);
 }
 .btn-sm {
   // line-height: ensure proper height of button next to small input

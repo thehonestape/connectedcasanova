@@ -12,6 +12,7 @@
   position: relative;
   min-height: $navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
   border: 1px solid transparent;
+  padding: 20px;
 
   // Prevent floats from breaking the navbar
   @include clearfix();
@@ -381,10 +382,13 @@
 // Default navbar
 .navbar-default {
   background-color: $navbar-default-bg;
-  border-color: $navbar-default-border;
 
   .navbar-brand {
     color: $navbar-default-brand-color;
+    background-image: url('/assets/img/logo.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: -20000px;
     &:hover,
     &:focus {
       color: $navbar-default-brand-hover-color;

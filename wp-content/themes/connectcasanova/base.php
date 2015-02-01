@@ -19,7 +19,17 @@
 
   <div class="wrap container" role="document">
     <div class="content row">
-      <main class="main" role="main">
+      <?php if (is_front_page()){?>
+      <div class="banner top-message">
+        <div class="branding"></div>
+        <hr>
+        <h1>Better Communication. Better Community.</h1>
+        <hr>
+        <h3>You can help us drastically improve cell phone and internet coverage in our community. Improved mobile phone and data coverage is a quality of life issue. Sign up for updates to know how you can help us assure that our community gets connected.</h3>
+        <a href="/" class="btn btn-primary btn-lg">Sign Up</a>
+      </div>
+      <?php } ?>
+      <main class="main col-sm-8" role="main">
         <?php include roots_template_path(); ?>
       </main><!-- /.main -->
       <?php if (roots_display_sidebar()) : ?>
