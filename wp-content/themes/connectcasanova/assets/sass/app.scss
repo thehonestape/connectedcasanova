@@ -9,7 +9,9 @@ $bootstrap-sass-asset-helper: false;
    Base
    ========================================================================== */
 
-body { }
+body { 
+  background: $beige;
+  }
 
 
 
@@ -34,6 +36,99 @@ body { }
    ========================================================================== */
 
 .main { }
+
+.hero-header {
+   position: relative;
+   text-align: center;
+   height: 600px;
+   padding: 100px;
+   width: 100%;
+   color: #fff;
+   @include flexbox();
+   background-image: url('/assets/img/casanova.jpg') !important;
+   background-size: cover !important;
+   background-repeat: no-repeat !important;
+   background-position: center center !important;
+   @media (max-width: $screen-md-max) {
+    background-position: center center !important;
+  }
+   .overlay {
+      position:absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      background-color: cornflowerblue;
+      opacity: .3;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+      filter: alpha(opacity=30);
+      -khtml-opacity: 0.3;
+   }
+   .home-content {
+      opacity: 1;
+      position: relative;
+      z-index: 10;
+      @include translate(0px, 50px);
+      @include flexbox-content();
+      h1 {
+         font-size: 1em;
+         text-transform: uppercase;
+         letter-spacing: 1px;
+         @media (min-width: $screen-sm-min) {
+          font-size: 2.2em;
+        }
+      }
+      .statement {
+         padding: 30px;
+         @include translate(0px, -50px);
+         @media (min-width: $screen-sm-min) {
+          @include translate(0px, -80px);
+        }
+         .content-wrap {
+          position: relative;
+          z-index: 500;
+          .mission {
+          }
+         }
+      }
+      p {
+         font-size: $font-size-small;
+         font-weight: 400;
+         span {
+            display: block;
+         }
+         @media (min-width: $screen-sm-min) {
+          font-size: $font-size-large;
+        }
+      }
+      .lettering-wrap {
+         display: block;
+         padding: 30px 0px 40px 0px;
+      }
+      .lettering {
+         font-weight: normal;
+         text-transform: none;
+         font-size: 6rem;
+         padding-bottom: 0px;
+         letter-spacing: -3px;
+         line-height: 0px;
+         -webkit-animation: cycle 1s linear, fadeDown 1s 5s linear;
+         animation: cycle 2s linear, fadeDown 2s 5s linear;
+         @media (min-width: $screen-sm-min) {
+          font-size: 8rem;
+        }
+      }
+      hr {
+         max-width: 300px;
+         margin-top: 20px;
+         border-color: #fff;
+         @media (min-width: $screen-sm-min) {
+          margin-top: 40px;
+        }
+      }
+   }
+}
 
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
