@@ -25,8 +25,8 @@
         <hr>
         <h1>Better Communication. Better Community.</h1>
         <hr>
-        <h3>You can help us drastically improve cell phone and internet coverage in our community. Improved coverage is a quality of life issue. Sign up for updates to find out how you can help get our community connected.</h3>
-        <a href="/" class="btn btn-primary btn-lg">Sign Up</a>
+        <h3>Improved cell phone and internet coverage is improved quality of life. Sign up for updates to find out how you can help us drastically improve cell phone and internet coverage in our community. </h3>
+        <a href="/" class="disabled btn btn-primary btn-lg">Sign Up</a>
       </div>
       <?php } ?>
 <?php /*
