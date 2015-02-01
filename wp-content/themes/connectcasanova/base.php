@@ -25,10 +25,11 @@
         <hr>
         <h1>Better Communication. Better Community.</h1>
         <hr>
-        <h3>You can help us drastically improve cell phone and internet coverage in our community. Improved mobile phone and data coverage is a quality of life issue. Sign up for updates to know how you can help us assure that our community gets connected.</h3>
+        <h3>You can help us drastically improve cell phone and internet coverage in our community. Improved coverage is a quality of life issue. Sign up for updates to find out how you can help get our community connected.</h3>
         <a href="/" class="btn btn-primary btn-lg">Sign Up</a>
       </div>
       <?php } ?>
+<?php /*
       <main class="main col-sm-8" role="main">
         <?php include roots_template_path(); ?>
       </main><!-- /.main -->
@@ -37,6 +38,7 @@
           <?php include roots_sidebar_path(); ?>
         </aside><!-- /.sidebar -->
       <?php endif; ?>
+      */ ?>
     </div><!-- /.content -->
   </div><!-- /.wrap -->
 
