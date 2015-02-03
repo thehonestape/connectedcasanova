@@ -26,7 +26,22 @@
         <h1>Better Communication. Better Community.</h1>
         <hr>
         <h3>Improved cell phone and internet coverage is improved quality of life. Sign up for updates to find out how you can help us drastically improve cell phone and internet coverage in our community. </h3>
-        <a href="/" class="disabled btn btn-primary btn-lg">Sign Up</a>
+        <div class="container-fluid">
+        <div class="signup">
+          <form class="form-inline" role="form" action="//connectcasanova.us10.list-manage.com/subscribe/post?u=6fa75f99947f253ed5ca201d5&amp;id=4128d134e5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div class="form-group">
+              <input type="name" class="form-control input-lg" placeholder="First Name" type="text" value="" name="FNAME" class="" id="mce-FNAME">
+            </div>
+            <div class="form-group">
+              <input type="name" class="form-control input-lg" placeholder="Last Name" type="text" value="" name="LNAME" class="" id="mce-LNAME">
+            </div>
+            <div class="form-group">
+              <input class="form-control input-lg" type="email" placeholder="Email" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+            </div>
+            <input type="submit" class="btn btn-lg btn-primary" value="Sign Up" name="subscribe" id="mc-embedded-subscribe">
+          </form>
+        </div>
+      </div>
       </div>
       <?php } ?>
 <?php /*
