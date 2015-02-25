@@ -67,8 +67,16 @@ body {
     background-size: cover;
     background-position: center center;
     width: 100%;
+    height: 300px;
+    @media (min-width: $screen-sm-min) {
+      height: auto;
+    }
     .intro {
-      visibility: hidden;
+      display: none;
+      @media (min-width: $screen-sm-min) {
+        visibility: hidden;
+        display: inline-block;
+      }
     }
   }
   .intro {
