@@ -19,14 +19,29 @@ body {
    Header
    ========================================================================== */
 
+
+.container-fluid {
+  padding: 0px;
+  @media (min-width: $screen-sm-min) {
+    padding: 0px 40px 0px 40px;
+  }
+}
+
+.navbar .container {
+  padding: 0px;
+}
+
 .banner { }
 
 .top-message {
   text-align: center;
-  padding: 30px 50px 90px 50px;
+  padding: 30px 20px 90px 20px;
   font-family: $font-family-serif !important;
   margin: 0 auto;
   margin-bottom: 80px;
+  @media (min-width: $screen-sm-min) {
+    padding: 30px 50px 90px 50px;
+  }
   hr {
     max-width: 500px;
   }

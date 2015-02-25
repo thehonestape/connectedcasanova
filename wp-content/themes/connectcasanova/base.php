@@ -17,8 +17,8 @@
     }
   ?>
 
-  <div class="wrap container-fluid" role="document">
-    <div class="content">
+  <div class="wrap container" role="document">
+    <div class="content row">
       <?php if (is_front_page()){?>
       <div class="banner top-message">
         <div class="branding"></div>
