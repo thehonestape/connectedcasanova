@@ -44,6 +44,7 @@
       <div class="about-banner row">
         <div class="col-lg-6 nopadding">
           <div class="about-photo">
+            <div class="credit">Photo credit: <a href="https://www.flickr.com/photos/stephen_little/14638194904">Stephen Little</a> <a href="http://creativecommons.org/licenses/by-nc/2.0/">CC BY-NC</a></div>            
             <div class="intro">
             <h4 class="title">About</h4>
             <p class="lead">This website is the voice of <em>The Neighborhood Committee for Stronger, More Reliable Data and Voice Service</em>.</p> 

@@ -63,6 +63,8 @@ body {
   text-align: left;
   overflow: hidden;
   .about-photo {
+    position: relative;
+    display: inline-block;
     background: url('/assets/img/barn.jpg');
     background-size: cover;
     background-position: center center;
@@ -70,6 +72,15 @@ body {
     height: 300px;
     @media (min-width: $screen-sm-min) {
       height: auto;
+    }
+    .credit {
+      position: absolute;
+      bottom: 5px;
+      text-align: center;
+      color: gray;
+      font-size: small;
+      font-family: $font-family-sans-serif;
+      width: 100%;
     }
     .intro {
       display: none;
