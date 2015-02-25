@@ -50,7 +50,7 @@
             <p>The committee consists of Casanova residents responding to inadequate, unreliable cell and internet signal. We are not affiliated with any carrier. Verizon is the only carrier currently offering a solution, and we support the proposed 150 ft Verizon Tower, to be located in Casanova. We currently speak for over 90% of residents living within one mile of the center of the village.
              </p>
              <p>
-              <span>Spokesman: John D. Miller</span><br>
+            <a href="mailto:jdmillerjack@gmail.com?Subject=Connect Casanova"><span>Spokesman: John D. Miller, jdmillerjack@gmail.com</span></a><br>
             <a class="btn btn-lg btn-default" href="mailto:jdmillerjack@gmail.com?Subject=Connect Casanova" target="_blank"> Contact</a>
             </p>
           </div>
@@ -63,7 +63,7 @@
             <p>The committee consists of Casanova residents responding to inadequate, unreliable cell and internet signal. We are not affiliated with any carrier. Verizon is the only carrier currently offering a solution, and we support the proposed 150 ft Verizon Tower, to be located in Casanova. We currently speak for over 90% of residents living within one mile of the center of the village.<br>
             </p>
             <p>
-              <span class="small">Spokesman: John D. Miller</span><br>
+            <a href="mailto:jdmillerjack@gmail.com?Subject=Connect Casanova"><span>Spokesman: John D. Miller, jdmillerjack@gmail.com</span></a><br>
             <a class="btn btn-lg btn-default" href="mailto:jdmillerjack@gmail.com?Subject=Connect Casanova" target="_blank"> Contact</a>
             </p>
           </div>
