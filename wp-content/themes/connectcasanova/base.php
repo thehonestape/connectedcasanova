@@ -17,8 +17,8 @@
     }
   ?>
 
-  <div class="wrap container" role="document">
-    <div class="content row">
+  <div class="wrap container-fluid" role="document">
+    <div class="content">
       <?php if (is_front_page()){?>
       <div class="banner top-message">
         <div class="branding"></div>
@@ -26,7 +26,6 @@
         <h1>Better Communication. Better Community.</h1>
         <hr>
         <h3>Improved cell phone and internet coverage is improved quality of life. Sign up for updates to find out how you can help us drastically improve cell phone and internet coverage in our community. </h3>
-        <div class="container-fluid">
         <div class="signup">
           <form class="form-inline" role="form" action="//connectcasanova.us10.list-manage.com/subscribe/post?u=6fa75f99947f253ed5ca201d5&amp;id=4128d134e5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div class="form-group">
@@ -42,9 +41,30 @@
           </form>
         </div>
       </div>
+      <div class="about-banner row">
+        <div class="col-lg-6 nopadding">
+          <div class="about-photo">
+            <div class="intro">
+            <h4 class="title">About</h4>
+            <p class="lead">This website is the voice of <em>The Neighborhood Committee for Stronger, More Reliable Data and Voice Service</em>.</p> 
+            <p>The committee consists of Casanova residents responding to inadequate, unreliable cell and internet signal. We are not affiliated with any carrier. Verizon is the only carrier currently offering a solution, and we supports the proposed 150 ft Verizon Tower, to be located in Casanova. It currently speaks for over 90% of residents living within one mile of the center of the village.<br>
+            <a href="mailto:jdmillerjack@gmail.com?Subject=Connect Casanova" target="_blank"> SPOKESMAN: John D. Miller, jdmillerjack@gmail.com</a>
+            </p>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-6 nopadding">
+          <div class="intro">
+            <h4 class="title">About</h4>
+            <p class="lead">This website is the voice of <em>The Neighborhood Committee for Stronger, More Reliable Data and Voice Service</em>.</p> 
+            <p>The committee consists of Casanova residents responding to inadequate, unreliable cell and internet signal. We are not affiliated with any carrier. Verizon is the only carrier currently offering a solution, and we supports the proposed 150 ft Verizon Tower, to be located in Casanova. It currently speaks for over 90% of residents living within one mile of the center of the village.<br>
+            <a href="mailto:jdmillerjack@gmail.com?Subject=Connect Casanova" target="_blank"> SPOKESMAN: John D. Miller, jdmillerjack@gmail.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
       </div>
       <?php } ?>
-<?php /*
       <main class="main col-sm-8" role="main">
         <?php include roots_template_path(); ?>
       </main><!-- /.main -->
@@ -53,7 +73,6 @@
           <?php include roots_sidebar_path(); ?>
         </aside><!-- /.sidebar -->
       <?php endif; ?>
-      */ ?>
     </div><!-- /.content -->
   </div><!-- /.wrap -->
 
