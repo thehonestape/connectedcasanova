@@ -47,7 +47,7 @@
             <div class="intro">
             <h4 class="title">About</h4>
             <p class="lead">This website is the voice of <em>The Neighborhood Committee for Stronger, More Reliable Data and Voice Service</em>.</p> 
-            <p>The committee consists of Casanova residents responding to inadequate, unreliable cell and internet signal. We are not affiliated with any carrier. Verizon is the only carrier currently offering a solution, and we support the proposed 150 ft Verizon Tower, to be located in Casanova. It currently speaks for over 90% of residents living within one mile of the center of the village.
+            <p>The committee consists of Casanova residents responding to inadequate, unreliable cell and internet signal. We are not affiliated with any carrier. Verizon is the only carrier currently offering a solution, and we support the proposed 150 ft Verizon Tower, to be located in Casanova. We currently speak for over 90% of residents living within one mile of the center of the village.
              </p>
              <p> 
             <a class="btn btn-lg btn-default" href="mailto:jdmillerjack@gmail.com?Subject=Connect Casanova" target="_blank"> Contact Spokesman John D. Miller</a>
@@ -59,7 +59,7 @@
           <div class="intro">
             <h4 class="title">About</h4>
             <p class="lead">This website is the voice of <em>The Neighborhood Committee for Stronger, More Reliable Data and Voice Service</em>.</p> 
-            <p>The committee consists of Casanova residents responding to inadequate, unreliable cell and internet signal. We are not affiliated with any carrier. Verizon is the only carrier currently offering a solution, and we support the proposed 150 ft Verizon Tower, to be located in Casanova. It currently speaks for over 90% of residents living within one mile of the center of the village.<br>
+            <p>The committee consists of Casanova residents responding to inadequate, unreliable cell and internet signal. We are not affiliated with any carrier. Verizon is the only carrier currently offering a solution, and we support the proposed 150 ft Verizon Tower, to be located in Casanova. We currently speak for over 90% of residents living within one mile of the center of the village.<br>
             </p>
             <p>
             <a class="btn btn-lg btn-default" href="mailto:jdmillerjack@gmail.com?Subject=Connect Casanova" target="_blank"> Contact Spokesman John D. Miller</a>
