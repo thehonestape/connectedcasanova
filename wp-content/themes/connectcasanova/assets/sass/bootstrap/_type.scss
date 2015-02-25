@@ -129,8 +129,8 @@ cite    { font-style: normal; }
   padding: ($line-height-computed);
   margin: ($line-height-computed * 2) 0 $line-height-computed;
   text-align: center;
-  background: lighten(gray,15%);
-  color: white;
+  border: 2px solid $gray-dark;
+  color: $gray-dark;
   h1 {
     font-size: 1.2em;
     font-weight: bold;
