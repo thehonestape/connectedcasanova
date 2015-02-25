@@ -81,6 +81,9 @@ body {
       font-size: small;
       font-family: $font-family-sans-serif;
       width: 100%;
+      a {
+        color: gray;
+      }
     }
     .intro {
       display: none;
