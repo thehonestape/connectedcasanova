@@ -104,6 +104,9 @@ body {
   @extend .btn;
   @extend .btn-primary;
   @extend .btn-sm;
+  @media (min-width: $screen-sm-min) {
+    margin-left: 20px;
+  }
   a {
     color: #fff !important;
   }
