@@ -100,6 +100,21 @@ body {
   }
 }
 
+.menu-take-action {
+  @extend .btn;
+  @extend .btn-primary;
+  @extend .btn-sm;
+  a {
+    color: #fff !important;
+  }
+}
+.active.menu-take-action {
+  a {
+    background-color: transparent !important;
+    color: #fff !important;
+  }
+}
+
 
 
 /* ==========================================================================
