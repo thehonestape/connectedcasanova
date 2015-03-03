@@ -157,7 +157,7 @@
 
 .navbar-brand {
   float: left;
-  padding: $navbar-padding-vertical $navbar-padding-horizontal;
+  // padding: $navbar-padding-vertical $navbar-padding-horizontal;
   font-size: $font-size-large;
   line-height: $line-height-computed;
   height: $navbar-height;
@@ -170,7 +170,7 @@
   @media (min-width: $grid-float-breakpoint) {
     .navbar > .container &,
     .navbar > .container-fluid & {
-      margin-left: -$navbar-padding-horizontal;
+      // margin-left: -$navbar-padding-horizontal;
     }
   }
 }
@@ -256,11 +256,15 @@
 
   // Uncollapse the nav
   @media (min-width: $grid-float-breakpoint) {
-    float: left;
+    float: none;
     margin: 0;
 
     > li {
       float: left;
+      @media (min-width: $screen-sm-min) {
+        float: none;
+      }
+
       > a {
         padding-top:    $navbar-padding-vertical;
         padding-bottom: $navbar-padding-vertical;

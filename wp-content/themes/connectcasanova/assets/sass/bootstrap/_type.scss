@@ -129,7 +129,7 @@ cite    { font-style: normal; }
   padding: ($line-height-computed);
   margin: ($line-height-computed * 2) 0 $line-height-computed;
   text-align: center;
-  border: 2px solid $gray-dark;
+  border-bottom: 1px solid $brand-primary;
   color: $gray-dark;
   h1 {
     font-size: 1.2em;

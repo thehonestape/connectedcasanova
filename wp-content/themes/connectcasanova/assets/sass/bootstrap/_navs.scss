@@ -11,10 +11,17 @@
   padding-left: 0; // Override default ul/ol
   list-style: none;
   @include clearfix();
+  @media (min-width: $screen-sm-min) {
+    text-align: center;
+  }
 
   > li {
     position: relative;
     display: block;
+    @media (min-width: $screen-sm-min) {
+      display: inline-block;
+    }
+
 
     > a {
       position: relative;
